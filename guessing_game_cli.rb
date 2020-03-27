@@ -1,7 +1,7 @@
 #require 'pry'
 # Code your solution here!
 def run_guessing_game
-comp_num = rand(0..6)
+comp_num = rand(6) + 1
 guess_num = gets.chomp
   #binding.pry
 if guess_num == 'exit'
